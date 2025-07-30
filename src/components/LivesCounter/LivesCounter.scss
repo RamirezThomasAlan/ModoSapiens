@@ -1,0 +1,29 @@
+.lives-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.life {
+  width: 32px;
+  height: 32px;
+  background-color: $danger-color;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 2px 5px rgba($danger-color, 0.5);
+  
+  &::before {
+    content: '❤️';
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  &.lost {
+    opacity: 0.3;
+    filter: grayscale(70%);
+  }
+}
