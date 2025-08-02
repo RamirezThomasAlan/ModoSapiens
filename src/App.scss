@@ -1,0 +1,33 @@
+.game-container {
+  @media (max-width: 480px) {
+    padding: 20px;
+    border-radius: 15px;
+    
+    .game-title {
+      font-size: 2.2rem;
+    }
+    
+    .question {
+      font-size: 1.2rem;
+    }
+    
+    .option-btn {
+      padding: 14px;
+      font-size: 0.95rem;
+    }
+    
+    .state-title {
+      font-size: 2rem;
+    }
+  }
+}
+
+.confetti {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #f00;
+  border-radius: 50%;
+  animation: confetti-fall 5s linear forwards;
+  z-index: 10;
+}

@@ -1,0 +1,36 @@
+.current-level {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+  &.level-easy {
+    background-color: rgba($success-color, 0.15);
+    color: $success-color;
+    border: 1px solid rgba($success-color, 0.3);
+  }
+  
+  &.level-medium {
+    background-color: rgba($warning-color, 0.15);
+    color: $warning-color;
+    border: 1px solid rgba($warning-color, 0.3);
+  }
+  
+  &.level-hard {
+    background-color: rgba($danger-color, 0.15);
+    color: $danger-color;
+    border: 1px solid rgba($danger-color, 0.3);
+  }
+  
+  &.level-extreme {
+    background-color: rgba($extreme-color, 0.15);
+    color: $extreme-color;
+    border: 1px solid rgba($extreme-color, 0.3);
+    animation: pulse 1.5s infinite, glow 2s infinite alternate;
+  }
+}

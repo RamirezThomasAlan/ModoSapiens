@@ -1,0 +1,16 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin gradient-text {
+    background: linear-gradient(90deg, #6a11cb, #2575fc, #2ed573);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@mixin box-shadow {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}

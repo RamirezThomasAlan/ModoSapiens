@@ -1,0 +1,29 @@
+.feedback {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: $border-radius;
+  font-weight: 600;
+  text-align: center;
+  animation: fadeIn 0.4s ease;
+  border-left: 5px solid;
+  
+  &.correct {
+    background-color: rgba($success-color, 0.1);
+    color: $success-color;
+    border-left-color: $success-color;
+  }
+  
+  &.incorrect {
+    background-color: rgba($danger-color, 0.1);
+    color: $danger-color;
+    border-left-color: $danger-color;
+  }
+}
+
+.explanation {
+  font-weight: normal;
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: rgba($text-color, 0.8);
+  line-height: 1.5;
+}
