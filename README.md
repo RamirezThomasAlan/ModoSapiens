@@ -27,10 +27,10 @@ Luché contra bugs épicos para lograr:
 ### ├── public/
 ### │ └── index.html
 ### ├── src/
-### │ ├── components/ # (Header, ProgressBar, LivesCounter)
-### │ ├── pages/ # (GamePage, LoadingPage, ResultPage)
-### │ ├── styles/ # (Variables SCSS, animaciones)
-### │ └── data/ # (Banco de preguntas)
+### │ ├── components/ (Header, ProgressBar, LivesCounter)
+### │ ├── pages/ (GamePage, LoadingPage, ResultPage)
+### │ ├── styles/ (Variables SCSS, animaciones)
+### │ └── data/ (Banco de preguntas)
 
 ## 💎 Características Destacadas
 
@@ -56,3 +56,5 @@ El efecto de confeti está generado con divs dinámicos y animaciones CSS puras 
 ## ⭐ ¿Te gustó el proyecto?
 ¡Dale estrella en GitHub si disfrutaste el desafío mental! Cada pregunta fue cuidadosamente seleccionada para equilibrar aprendizaje y diversión.
 # ¡Gracias por jugar! 🎮💙
+
+# DEV MENSAJE: ACTUALMENTE EN DESARROLLO, SERA JUGABLE EN LAS PROXIMAS SEMANAS, MUCHAS GRACIAS!
